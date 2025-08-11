@@ -2,6 +2,7 @@ import taglib
 import os
 # TODO: ADD THIS TO A GIT REPO
 # TODO: add a help runtime option with usage information
+
 pathToMusic = input("Path to Music Files: ") # path in linux format in WSL terminal if on windows (ex. /mnt/c/Users/Thuc/Music/New/test)
 
 # fileList = os.listdir(pathToMusic)
