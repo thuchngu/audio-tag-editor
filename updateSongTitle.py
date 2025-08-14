@@ -19,6 +19,9 @@ doUpdate = args.update
 dirScan = os.scandir(pathToMusic)
 print("Files under ", pathToMusic, ": ")
 
+# TODO Read in a text file with metadata to use to update like Album Name and Artist
+# TODO OR include as command line arguments
+
 # Update names of songs under source path
 for musicFile in dirScan:
     if musicFile.is_file():
